@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/TheCreativeKrys/Documents/Semester 4/Web Development IV/Week 9/geohub
- * @version 1521461647298
+ * @version 1521461744943
  */
-const patternManifest_1521461647297 = {
+const patternManifest_1521461744943 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -620,7 +620,13 @@ const patternManifest_1521461647297 = {
       "/Users/TheCreativeKrys/Documents/Semester 4/Web Development IV/Week 9/geohub/patterns/header",
       "/Users/TheCreativeKrys/Documents/Semester 4/Web Development IV/Week 9/geohub/patterns/links"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "home.html",
+        "namePretty": "Home",
+        "path": "/Users/TheCreativeKrys/Documents/Semester 4/Web Development IV/Week 9/geohub/pages/home.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -822,5 +828,5 @@ const patternManifest_1521461647297 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521461647297);
+patternBotIncludes(patternManifest_1521461744943);
 }());
